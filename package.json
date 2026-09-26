@@ -1,0 +1,25 @@
+{
+  "name": "subscriber-user-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "snapshot": "node scripts/snapshot.js",
+    "cleanup": "node scripts/cleanup.js",
+    "scheduler": "node scripts/scheduler.js",
+    "q4": "node q4/troubleshoot.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-cron": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
